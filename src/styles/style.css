@@ -1,0 +1,38 @@
+
+@import url(./global.css);
+
+/* header */
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+    background-color: var(--color-black);
+}
+.header-navigation{
+    display: flex;
+    gap:40px;
+    align-items: center;
+}
+.itens-navigation{
+    display: flex;
+    gap: 25px;
+
+}
+.itens-navigation li a{
+    color: var(--color-foreground);
+    font-family: var(  --font-title);
+}
+
+.container-search{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+    
+}
+
+.container-search form{
+    border: 1px solid var(--color-brand);
+    border-radius: 5px;
+}
