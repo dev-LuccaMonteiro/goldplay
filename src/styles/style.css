@@ -55,3 +55,13 @@ header{
     align-items: center;
     background-color: transparent;
 }
+
+.btnHeader{
+    color: var(--color-black);
+    background-color: var(--color-brand);
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-family: var(--font-body);
+    font-size: var(--font-size-bodyy);
+    font-weight: 700;
+}
