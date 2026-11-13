@@ -123,4 +123,25 @@ main nav{
     background-color: var(--color-black);
   
 }
+.card-genre{
+    position: relative;
+}
+
+.details-genre{
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: var(--color-foreground);
+}
+
+.details-genre h3{
+    font-family: var(--font-title);
+    font-weight: 400;
+    font-size: var(--font-size-body);
+}
+
+.details-genre p{
+    font-family: var(--font-body);
+    font-size: var(--font-size-body);
+}
 
